@@ -1,0 +1,58 @@
+// Output Response //
+{
+    "firstName": "kk",
+    "lastName": "N",
+    "aadharCardNumber": "671438908126",
+    "panCardNumber": "jubpk9130g",
+    "phoneNumber": "9381050845",
+    "emailId": "kk3@gmail.com",
+    "id": 18,
+    "address": "143,tsdk,dp",
+	"Account Information" :{
+		"Customer ID":"99999999",
+		"Account Number" : "9012831020391",
+		"SetNetBankingPassword" :"http://localhost:8080/api/user/{CustomerID}/SetPassword/",
+		"DebitCardDetails":"http://localhost:8080/api/user/{CustomerID}/DebitCard/"
+	}
+}
+
+//Response got
+{
+    "customerDetails": {
+        "firstName": "new user2",
+        "lastName": "New",
+        "aadharCardNumber": "671438908132",
+        "panCardNumber": "jubpk9130n",
+        "phoneNumber": "56190327816",
+        "emailId": "newUser4@gmail.com",
+        "id": 29,
+        "address": "dd"
+    }, // check Need to store account number and customer id in db 
+    "accountInformation": {
+        "setNetBankingPasswordUrl": "http://localhost:8080/api/user/{CustomerID}/SetPassword/",
+        "debitCardDetialsUrl": "http://localhost:8080/api/user/{CustomerID}/DebitCard/",
+        "accountNumber": "11575764263781",
+        "customerId": "66683241"
+    }
+}
+
+//
+{
+    "customerDetails": {
+        "firstName": "New User 1",
+        "lastName": "N",
+        "aadharCardNumber": "634458540705",
+        "panCardNumber": "jubpk9130e",
+        "phoneNumber": "9381050846",
+        "emailId": "User1@gmail.com",
+        "id": 4,
+        "address": "Ramnagar"
+    },
+    "accountInformation": {
+        "id": 4,
+        "debitCardDetialsUrl": "http://localhost:8080/api/user/99136291/DebitCard/",
+        "setNetBankingPasswordUrl": "http://localhost:8080/api/user/99136291/SetPassword/",
+        "customerId": "99136291",
+        "accountNumber": "41364832918793"
+    }
+}

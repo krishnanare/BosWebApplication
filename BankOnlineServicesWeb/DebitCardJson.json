@@ -1,0 +1,10 @@
+//inputresponse http://localhost:8080/api/user/{CustomerID}/DebitCard/
+//OutPutResponse
+// Store while calling this api as debitcardinfo id,uname,dbnumber,validupto,Cvv,Type
+{ 
+	"UserName":"KrishnaKumarN",
+	"Debit Card Number" : "RangeStartingOf 1234 5678 9101 1234 12numbers",
+	"ValidUpTo":"todayDate + next5years",
+	"Cvv" : "Random 3 numbers" ,
+	"Type": "VISA or Rupay or MasterCard"
+}
