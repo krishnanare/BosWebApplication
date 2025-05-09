@@ -1,3 +1,50 @@
+Banking Application - Java Spring Boot Mini Project
+This is a mini banking application developed using Java Spring Boot that simulates the core functionalities of a real-world banking system.
+
+Features:
+
+Bank Account Opening:
+Users can open a new bank account by providing required details including:
+Aadhar Number
+PAN Number
+Email
+First and Last Name
+Phone Number
+The application performs strict validations on the format and correctness of all inputs (Aadhar, PAN, Email).
+Upon successful validation, the system generates:
+A unique Customer ID
+A Temporary Password
+Account Number and Debit Card Details
+User Authentication & Account Access:
+Users can log in using the temporary password (with an option to change it).
+Secure access to personal banking dashboard via RESTful APIs.
+Transactions:
+Deposit and Withdrawal APIs allow users to manage their account balance.
+All transactions are securely handled and logged.
+Investment Portfolio:
+Users can manage and view their investments across:
+Public Provident Fund (PPF)
+Fixed Deposit (FD)
+Recurring Deposit (RD)
+Mutual Funds
+Tech Stack:
+
+Java 8
+Spring Boot
+Spring Data JPA
+Hibernate
+MySQL (or any RDBMS)
+REST APIs
+Postman (for API testing)
+Future Enhancements:
+
+JWT-based authentication
+Email/SMS notification on transactions
+Admin panel for account approvals
+Integration with third-party investment APIs
+
+
+
 # BosWebApplication
 New Rest Web App
 ---------------------
